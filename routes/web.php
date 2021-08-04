@@ -15,18 +15,18 @@ use Illuminate\Support\Facades\Route;
 require __DIR__.'/auth.php';
 
 Route::get('/', 'HomeController@index');
-Route::get('/process', 'HomeController@process');
-Route::get('/job', 'HomeController@job');
 Route::get('/about-us', 'AboutUsController@index')->name('about-us');
 Route::get('/contact-us', 'ContactUsController@index')->name('contact-us');
 Route::get('/feedback', 'FeedbackController@index')->name('feedback');
 Route::resource('feedback', 'FeedbackController');
-
+Route::get('/search', 'HomeController@search')->name('search');
 Route::middleware(['auth'])->group(function () {
     /* Review Jobs controller*/
     Route::resource('review-job', 'ReviewJobsController');
     /* job posts controller*/
     Route::resource('job', 'JobController');
+    /* job views controller*/
+    Route::resource('job-views', 'JobViewsConroller');
     /* User controller*/
     Route::get('/user-profile', 'UserController@index')->name('user-profile');
     Route::resource('user', 'UserController');

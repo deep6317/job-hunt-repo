@@ -15,25 +15,39 @@
                         </div>
                         <div class="job-search-wrap-two mt-50 wow fadeInUp" data-wow-delay=".7s">
                             <div class="job-search-form">
-                                <form action="#">
+                                <form action="{{ route('search') }}" method="GET">
                                     <!-- Single Field Item Start  -->
                                     <div class="single-field-item keyword">
-                                        <label for="keyword">What</label>
-                                        <input id="keyword" placeholder="What jobs you want?" name="keyword"
+                                        <label for="search">What</label>
+                                        <input id="search" placeholder="What jobs you want?" name="search"
                                             type="text">
                                     </div>
                                     <!-- Single Field Item End  -->
                                     <!-- Single Field Item Start  -->
                                     <div class="single-field-item location">
-                                        <label for="location">Where</label>
-                                        <input id="location" class="input-field input-field-location"
-                                            placeholder="Location" name="location" type="text">
+                                        <label for="search">Where</label>
+                                        <input id="search" 
+                                            placeholder="Location" name="search" type="text">
                                     </div>
                                     <!-- Single Field Item End  -->
                                     <div class="submit-btn">
-                                        <button class="btn" type="submit">Search</button>
+                                        <button class="btn" type="submit" onclick="r">
+                                            <a style="color: white" class="{{ request()->is('job-views.index') ? 'active' : '' }}" href="{{ route('job-views.index') }}">
+                                            Search</a>
+                                        </button>
                                     </div>
                                 </form>
+                                {{-- @if($posts->isNotEmpty())
+                                    @foreach ($posts as $post)
+                                        <div class="post-list">
+                                            <p>{{$jobviewer->job_title}}</p>
+                                        </div>
+                                    @endforeach
+                                @else 
+    <div>
+        <h2>No posts found</h2>
+    </div>
+@endif --}}
                             </div>
                             <div class="trending-keywords mt-30">
                                 <div class="keywords style-two">

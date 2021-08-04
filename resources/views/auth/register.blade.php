@@ -66,6 +66,18 @@
                                 type="text"
                                 name="country" required />
             </div>
+            <div class="row mt-4">
+                <label class="form-check-label p-2" for="inlineRadio1">Are you currently employee?</label>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="ce" id="inlineRadio1" value="1">
+                    <label class="form-check-label" for="inlineRadio1">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="ce" id="inlineRadio2" value="0"
+                        checked="checked">
+                    <label class="form-check-label" for="inlineRadio2">No</label>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-6">
                     <a class="underline text-sm text-gray-600 hover:text-gray-900" href="/">
