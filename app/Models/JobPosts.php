@@ -18,8 +18,12 @@ class JobPosts extends Model
         'email',
         'job_title',
         'job_skill',
+        'job_area',
         'job_type',
         'wfh',
-        'status'
+        'status',
+        'experience',
+        'salary',
+        'job_desc'
     ];
 }

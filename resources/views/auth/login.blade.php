@@ -53,5 +53,10 @@
                 </x-button>
             </div>
         </form>
+        <div class="row">
+            <div class="col-lg-12 text-center mt-3">
+                <label for="">Don't have an account ? </label><a style="color:blue;text-decoration:underline" href="/register">Register Now</a>
+            </div>
+        </div>
     </x-auth-card>
 </x-guest-layout>

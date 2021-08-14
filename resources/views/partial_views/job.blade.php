@@ -14,7 +14,7 @@
         <div class="cat-head">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-12">
-                    <a href="job-details.html" class="single-cat wow fadeInUp" data-wow-delay=".2s">
+                    <a href="/view-job-types/technical_support" class="single-cat wow fadeInUp" data-wow-delay=".2s">
                         <div class="icon">
                             <i class="lni lni-cog"></i>
                         </div>
@@ -22,7 +22,7 @@
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
-                    <a href="job-details.html" class="single-cat wow fadeInUp" data-wow-delay=".4s">
+                    <a href="/view-job-types/business_development" class="single-cat wow fadeInUp" data-wow-delay=".4s">
                         <div class="icon">
                             <i class="lni lni-layers"></i>
                         </div>
@@ -30,7 +30,7 @@
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
-                    <a href="job-details.html" class="single-cat wow fadeInUp" data-wow-delay=".6s">
+                    <a href="/view-job-types/real_estate_business" class="single-cat wow fadeInUp" data-wow-delay=".6s">
                         <div class="icon">
                             <i class="lni lni-home"></i>
                         </div>
@@ -38,15 +38,15 @@
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
-                    <a href="job-details.html" class="single-cat wow fadeInUp" data-wow-delay=".8s">
+                    <a href="/view-job-types/share_market_analysis" class="single-cat wow fadeInUp" data-wow-delay=".8s">
                         <div class="icon">
                             <i class="lni lni-search"></i>
                         </div>
-                        <h3>Share Maeket<br> Analysis</h3>
+                        <h3>Share Market<br> Analysis</h3>
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
-                    <a href="job-details.html" class="single-cat wow fadeInUp" data-wow-delay=".2s">
+                    <a href="/view-job-types/financial_banking_service" class="single-cat wow fadeInUp" data-wow-delay=".2s">
                         <div class="icon">
                             <i class="lni lni-investment"></i>
                         </div>
@@ -54,7 +54,7 @@
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
-                    <a href="job-details.html" class="single-cat wow fadeInUp" data-wow-delay=".4s">
+                    <a href="/view-job-types/it_networking_service" class="single-cat wow fadeInUp" data-wow-delay=".4s">
                         <div class="icon">
                             <i class="lni lni-cloud-network"></i>
                         </div>
@@ -62,7 +62,7 @@
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
-                    <a href="job-details.html" class="single-cat wow fadeInUp" data-wow-delay=".6s">
+                    <a href="/view-job-types/restaurant_service" class="single-cat wow fadeInUp" data-wow-delay=".6s">
                         <div class="icon">
                             <i class="lni lni-restaurant"></i>
                         </div>
@@ -70,7 +70,7 @@
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
-                    <a href="job-details.html" class="single-cat wow fadeInUp" data-wow-delay=".8s">
+                    <a href="/view-job-types/defence_fire_service" class="single-cat wow fadeInUp" data-wow-delay=".8s">
                         <div class="icon">
                             <i class="lni lni-fireworks"></i>
                         </div>

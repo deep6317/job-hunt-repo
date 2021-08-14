@@ -19,21 +19,29 @@
                                     <!-- Single Field Item Start  -->
                                     <div class="single-field-item keyword">
                                         <label for="search">What</label>
-                                        <input id="search" placeholder="What jobs you want?" name="search"
-                                            type="text">
+                                        <select name="job_area" id="job_area" class="form-control">
+                                            <option value="technical_support">Technical Support</option>
+                                            <option value="business_development">Business Development</option>
+                                            <option value="real_estate_business">Real Estate Business</option>
+                                            <option value="share_market_analysis">Share Market Analysis</option>
+                                            <option value="financial_banking_service">Financial Banking Service</option>
+                                            <option value="it_networking_service">IT Networking Service</option>
+                                            <option value="restaurant_service">Restaurant Service</option>
+                                            <option value="defence_fire_service">Defence Fire Service</option>
+                                        </select>
+                                       {{--  <input id="search" placeholder="What jobs you want?" name="search"
+                                            type="text"> --}}
                                     </div>
                                     <!-- Single Field Item End  -->
                                     <!-- Single Field Item Start  -->
                                     <div class="single-field-item location">
                                         <label for="search">Where</label>
-                                        <input id="search" 
-                                            placeholder="Location" name="search" type="text">
+                                        <input id="search" placeholder="Location" name="address" type="text">
                                     </div>
                                     <!-- Single Field Item End  -->
                                     <div class="submit-btn">
-                                        <button class="btn" type="submit" onclick="r">
-                                            <a style="color: white" class="{{ request()->is('job-views.index') ? 'active' : '' }}" href="{{ route('job-views.index') }}">
-                                            Search</a>
+                                        <button class="btn" type="submit">
+                                            Search
                                         </button>
                                     </div>
                                 </form>
@@ -49,7 +57,7 @@
     </div>
 @endif --}}
                             </div>
-                            <div class="trending-keywords mt-30">
+                            {{-- <div class="trending-keywords mt-30">
                                 <div class="keywords style-two">
                                     <span class="title">Popular Keywords:</span>
                                     <ul>
@@ -59,7 +67,7 @@
                                         <li><a href="#">ASP.NET</a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>

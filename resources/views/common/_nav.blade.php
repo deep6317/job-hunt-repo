@@ -8,7 +8,7 @@
                     <nav class="navbar navbar-expand-lg">
                         <a class="navbar-brand logo" href="/">
                             {{-- <img class="logo1" src="assets/images/logo/logo.svg" alt="Logo" /> --}}
-                            <img class="logo1" src="assets/images/newlogopng.png" alt="Logo" />
+                            <img class="logo1" src="{{asset('assets/images/newlogopng.png')}}" alt="Logo" />
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -33,7 +33,7 @@
                                             <li><a class="{{ request()->is('user-profile') ? 'active' : '' }}" href="{{ route('user-profile') }}">Profile</a></li>
                                             {{-- <li><a class="{{ request()->is('review-job.index') ? 'active' : '' }}" href="{{ route('review-job.index') }}">Review 
                                                     Job</a></li>--}}
-                                            <li><a class="{{ request()->is('job.index') ? 'active' : '' }}" href="{{ route('job.index') }}">Your Job</a></li>
+                                            <li><a class="{{ request()->is('job-views.index') ? 'active' : '' }}" href="{{ route('job-post-list') }}">Your Job</a></li>
                                             <li><a class="{{ request()->is('feedback.index') ? 'active' : '' }}" href="{{ route('feedback.index') }}">Feedback</a></li>
                                             <li><a class="dropdown-item" href="{{ route('logout') }}"
                                                     onclick="event.preventDefault();

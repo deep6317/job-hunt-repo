@@ -17,6 +17,15 @@
                 </ul>
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card mt-2">
+                    <div class="card-body">
+                        <h6>{!! $aboutus->description !!}</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 @endsection
