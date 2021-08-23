@@ -33,6 +33,11 @@
                     <strong>{{ $message }}</strong>
                 </div>
             @endif
+            @if (count($job_searches) > 0)
+                <div class="text-right">
+                    <a class="btn btn-primary btn-sm" href="{{route('job.index')}}"> <i class="fa fa-plus"></i> Create New Post</a>
+                </div>
+            @endif
             @forelse($job_searches as $jobviewer)
                 <div class="card mt-2">
                     <div class="card-body">

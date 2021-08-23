@@ -50,7 +50,7 @@
 
          <div class="card mt-3">
             <div class="card-body">
-               <h6 class="pb-2 pt-2 mb-1">{!! $job->desc !!}</h6>
+               <p>{!! $job->job_desc !!}</p>
             </div>
          </div>
 

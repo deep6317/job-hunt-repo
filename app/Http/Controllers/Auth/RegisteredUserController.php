@@ -49,6 +49,7 @@ class RegisteredUserController extends Controller
             'mobile_number' => $request->mobile_number,
             'address' => $request->address,
             'country' => $request->country,
+            'ce' => $request->ce,
         ]);
 
         event(new Registered($user));

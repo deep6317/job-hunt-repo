@@ -11,7 +11,7 @@
                     <div class="f-about single-footer">
                         <div class="logo">
                             {{-- <a href="index.html"><img src="assets/images/logo/logo.svg" alt="Logo"></a> --}}
-                            <a href="/"> <img class="logo1" src="assets/images/newlogopng.png" alt="Logo" /></a>
+                            <a href="/"> <img class="logo1" src="{{asset('assets/images/newlogopng.png')}}" alt="Logo" /></a>
                         </div>
                         <ul class="contact-address">
                             <li><span>Address:</span> 23 Dorset Road,London,UK E7 8PR</li>

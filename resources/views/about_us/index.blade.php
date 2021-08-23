@@ -12,7 +12,7 @@
                         Business draws on a wide range of different business .</p>
                 </div>
                 <ul class="breadcrumb-nav">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li>About Us</li>
                 </ul>
             </div>
